@@ -1,8 +1,9 @@
 import random
 import string
+import sys
 
-length = int(input("Enter password length: "))
-count = int(input("How many passwords? "))
+length = int(sys.argv[1])
+count = int(sys.argv[2])
 
 characters = string.ascii_letters + string.digits + string.punctuation
 
